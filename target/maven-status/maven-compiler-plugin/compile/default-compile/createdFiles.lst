@@ -1,0 +1,10 @@
+com/boas/project/domain/Permission.class
+com/boas/project/service/ProjectDao.class
+com/boas/project/service/UserDao.class
+com/boas/project/controller/UserController.class
+com/boas/project/domain/Role.class
+com/boas/project/controller/ProjectController.class
+com/boas/project/config/SecurityConfig.class
+com/boas/project/domain/User.class
+com/boas/project/domain/Project.class
+com/boas/project/App.class

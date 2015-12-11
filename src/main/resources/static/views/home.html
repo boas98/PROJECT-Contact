@@ -1,0 +1,42 @@
+<div class="card-panel">
+<h4 class="light">Data Contact List</h4>
+<div class="row">
+    <div class="col s12 m6">
+        <div class="row">
+            <div class="input-field col s12">
+                <input placeholder="Nama" type="text" class="validate" ng-model="currentProject.nama">
+            </div>
+            <div class="input-field col s12">
+                <textarea placeholder="No.HP" class="materialize-textarea validate" ng-model="currentProject.no_hp"></textarea>
+            </div>
+            <div class="input-field col s12">
+                <button class="btn waves-effect waves-light" ng-click="simpanData(currentProject)">Simpan</button>
+            </div>
+        </div>
+    </div>
+    <div class="col s12 m6 right-align">
+        <button ng-click="tampilkanData()" class="btn waves-effect waves-light">Tampilkan data</button>
+    </div>
+</div>
+<table class="striped centered responsive-table">
+        <thead>
+          <tr>
+              <th>Nama</th>
+              <th>No.HP</th>
+              <th>Tindakan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="project in dataServer">
+            <td>{{ project.nama }}</td>
+            <td>{{ project.no_hp }}</td>
+            <td>
+                <button class="btn waves-effect waves-light" ng-click="hapusData(project.id)">Hapus</button>
+                <button class="btn waves-effect waves-light" ng-click="editData(project)">Edit</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+<div class="blue-grey darken-3 center" style="margin-top: 40px; padding-top: 15px; padding-bottom: 15px">
+</div>
+</div>

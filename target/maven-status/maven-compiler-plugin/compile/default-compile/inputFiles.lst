@@ -1,0 +1,10 @@
+/var/www/html/netbeans/PROJECT-Contact/src/main/java/com/boas/project/domain/Project.java
+/var/www/html/netbeans/PROJECT-Contact/src/main/java/com/boas/project/controller/ProjectController.java
+/var/www/html/netbeans/PROJECT-Contact/src/main/java/com/boas/project/service/ProjectDao.java
+/var/www/html/netbeans/PROJECT-Contact/src/main/java/com/boas/project/domain/Role.java
+/var/www/html/netbeans/PROJECT-Contact/src/main/java/com/boas/project/domain/User.java
+/var/www/html/netbeans/PROJECT-Contact/src/main/java/com/boas/project/config/SecurityConfig.java
+/var/www/html/netbeans/PROJECT-Contact/src/main/java/com/boas/project/service/UserDao.java
+/var/www/html/netbeans/PROJECT-Contact/src/main/java/com/boas/project/controller/UserController.java
+/var/www/html/netbeans/PROJECT-Contact/src/main/java/com/boas/project/domain/Permission.java
+/var/www/html/netbeans/PROJECT-Contact/src/main/java/com/boas/project/App.java
